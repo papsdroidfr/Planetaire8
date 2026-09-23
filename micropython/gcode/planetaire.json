@@ -1,0 +1,16 @@
+{
+    "_COMMENT": "Motorisation d'un planétaire mécanique, chaque moteur contrôle la révolution d'une planète",
+    "DRIVER": "TMC2208",
+    "FREQ_SM": "600_000",
+    "MODE": "LOOP",
+    "GCODE_SEQ": { 
+        "0": ["a1_s800_d1_v0"],
+        "1": ["a1_s800_d1_v0"],
+        "2": ["a1_s400_d0_v1"],
+        "3": ["a1_s800_d1_v0"],
+        "4": ["a1_s100_d1_v7"],
+        "5": ["a1_s200_d0_v3"],
+        "6": ["a1_s100_d0_v7"],
+        "7": ["a1_s100_d0_v7"],
+    }
+}
